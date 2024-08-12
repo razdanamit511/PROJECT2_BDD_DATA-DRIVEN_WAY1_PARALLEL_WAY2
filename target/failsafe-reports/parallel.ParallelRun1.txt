@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun1
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 116.198 s - in parallel.ParallelRun1

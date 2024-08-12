@@ -1,0 +1,5 @@
+parallel\ForgotPassword_StepDefinitions.class
+parallel\ParallelRun1.class
+parallel\AppHooks.class
+parallel\SignIn_StepDefinitions.class
+parallel\Background_StepDefinitions.class

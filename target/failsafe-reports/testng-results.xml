@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-11T00:09:22 IST" name="Surefire suite" finished-at="2024-08-11T00:11:18 IST" duration-ms="115406">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-11T00:09:22 IST" name="Surefire test" finished-at="2024-08-11T00:11:18 IST" duration-ms="115406">
+      <class name="parallel.ParallelRun1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:23 IST" name="setUpClass" finished-at="2024-08-11T00:09:24 IST" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69796bd0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:20 IST" duration-ms="56146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Password" button,"Please enter your email address below to receive a password reset link.", "Email" ( with *) and "Reset my Password" button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:31 IST" duration-ms="66659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that "If there is an account associated with <entered email address> you will receive an email with a link to reset your password." message is displayed provided user enters valid email address in email address textbox followed by click on Rest my account button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:20 IST" duration-ms="55941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that Sign-In page title is "Customer Login""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:52 IST" duration-ms="87492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is displayed under Email textbox provided user enters Invalid email address in email textbox and clicks on Reset My Password button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:26 IST" duration-ms="61541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that Sign-In page form contains below elements:-"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:26 IST" duration-ms="61534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that title of Forgot Password page is "Forgot Your Password?""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:26 IST" duration-ms="61975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that "This is a required field." error message is displayed under all Mandatory fields provded user clicks on "Reset my password" button without entering any value in Mandatory field textbox."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:11:10 IST" duration-ms="106162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user logs in successfully using valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:09:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-11T00:10:56 IST" duration-ms="91599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not able to login using invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun1@1a84f40f]" started-at="2024-08-11T00:11:10 IST" name="tearDownClass" finished-at="2024-08-11T00:11:18 IST" duration-ms="7561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

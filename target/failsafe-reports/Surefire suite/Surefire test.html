@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 11 00:09:22 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>115 seconds (115406 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Password" button,"Please enter your email address below to receive a password reset link.", "Email" ( with *) and "Reset my Password" button", "Forgot Password"</td>
+<td></td>
+<td>56</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that "If there is an account associated with <entered email address> you will receive an email with a link to reset your password." message is displayed provided user enters valid email address in email address textbox followed by click on Rest my account button", "Forgot Password"</td>
+<td></td>
+<td>66</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user logs in successfully using valid credentials", "SignIn"</td>
+<td></td>
+<td>106</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that Sign-In page title is "Customer Login"", "SignIn"</td>
+<td></td>
+<td>55</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is displayed under Email textbox provided user enters Invalid email address in email textbox and clicks on Reset My Password button", "Forgot Password"</td>
+<td></td>
+<td>87</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that Sign-In page form contains below elements:-", "SignIn"</td>
+<td></td>
+<td>61</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that title of Forgot Password page is "Forgot Your Password?"", "Forgot Password"</td>
+<td></td>
+<td>61</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user is not able to login using invalid credentials", "SignIn"</td>
+<td></td>
+<td>91</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+<tr>
+<td title='parallel.ParallelRun1.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that "This is a required field." error message is displayed under all Mandatory fields provded user clicks on "Reset my password" button without entering any value in Mandatory field textbox.", "Forgot Password"</td>
+<td></td>
+<td>61</td>
+<td>parallel.ParallelRun1@1a84f40f</td></tr>
+</table><p>
+</body>
+</html>

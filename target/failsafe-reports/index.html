@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user gets below mentioned labels/Fields on &quot;Forgot Password&#039; webpage Labels,&quot;Forgot Pas...)">runScenario("Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Pas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that &quot;If there is an account associated with &lt;entered email address&gt; you will receive an ema...)">runScenario("Verify that "If there is an account associated with <entered email address> you will receive an ema...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that user logs in successfully using valid credentials&quot;, &quot;SignIn&quot;)">runScenario("Validate that user logs in successfully using valid credentials", "SignIn")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that Sign-In page title is &quot;Customer Login&quot;&quot;, &quot;SignIn&quot;)">runScenario("Validate that Sign-In page title is "Customer Login"", "SignIn")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that &quot;Please enter a valid email address (Ex: johndoe@domain.com).&quot; error message is display...)">runScenario("Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is display...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that Sign-In page form contains below elements:-&quot;, &quot;SignIn&quot;)">runScenario("Validate that Sign-In page form contains below elements:-", "SignIn")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that title of Forgot Password page is &quot;Forgot Your Password?&quot;&quot;, &quot;Forgot Password&quot;)">runScenario("Verify that title of Forgot Password page is "Forgot Your Password?"", "Forgot Password")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that user is not able to login using invalid credentials&quot;, &quot;SignIn&quot;)">runScenario("Validate that user is not able to login using invalid credentials", "SignIn")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun1" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that &quot;This is a required field.&quot; error message is displayed under all Mandatory fields provd...)">runScenario("Verify that "This is a required field." error message is displayed under all Mandatory fields provd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parallel.ParallelRun1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user gets below mentioned labels/Fields on &quot;Forgot Password&#039; webpage Labels,&quot;Forgot Pas...)">
+                  </a> <!-- runScenario("Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Pas...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Password" button,"Please enter your email address below to receive a password reset link.", "Email" ( with *) and "Reset my Password" button","Forgot Password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that &quot;If there is an account associated with &lt;entered email address&gt; you will receive an ema...)">
+                  </a> <!-- runScenario("Verify that "If there is an account associated with <entered email address> you will receive an ema...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that "If there is an account associated with <entered email address> you will receive an email with a link to reset your password." message is displayed provided user enters valid email address in email address textbox followed by click on Rest my account button","Forgot Password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that user logs in successfully using valid credentials&quot;, &quot;SignIn&quot;)">
+                  </a> <!-- runScenario("Validate that user logs in successfully using valid credentials", "SignIn") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that user logs in successfully using valid credentials","SignIn")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that Sign-In page title is &quot;Customer Login&quot;&quot;, &quot;SignIn&quot;)">
+                  </a> <!-- runScenario("Validate that Sign-In page title is "Customer Login"", "SignIn") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that Sign-In page title is "Customer Login"","SignIn")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that &quot;Please enter a valid email address (Ex: johndoe@domain.com).&quot; error message is display...)">
+                  </a> <!-- runScenario("Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is display...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is displayed under Email textbox provided user enters Invalid email address in email textbox and clicks on Reset My Password button","Forgot Password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that Sign-In page form contains below elements:-&quot;, &quot;SignIn&quot;)">
+                  </a> <!-- runScenario("Validate that Sign-In page form contains below elements:-", "SignIn") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that Sign-In page form contains below elements:-","SignIn")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that title of Forgot Password page is &quot;Forgot Your Password?&quot;&quot;, &quot;Forgot Password&quot;)">
+                  </a> <!-- runScenario("Verify that title of Forgot Password page is "Forgot Your Password?"", "Forgot Password") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that title of Forgot Password page is "Forgot Your Password?"","Forgot Password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that user is not able to login using invalid credentials&quot;, &quot;SignIn&quot;)">
+                  </a> <!-- runScenario("Validate that user is not able to login using invalid credentials", "SignIn") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that user is not able to login using invalid credentials","SignIn")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that &quot;This is a required field.&quot; error message is displayed under all Mandatory fields provd...)">
+                  </a> <!-- runScenario("Verify that "This is a required field." error message is displayed under all Mandatory fields provd...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that "This is a required field." error message is displayed under all Mandatory fields provded user clicks on "Reset my password" button without entering any value in Mandatory field textbox.","Forgot Password")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parallel.ParallelRun1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'parallel.ParallelRun1')
+data.setCell(0, 3, 106162);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'parallel.ParallelRun1')
+data.setCell(1, 3, 91599);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'parallel.ParallelRun1')
+data.setCell(2, 3, 87492);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'parallel.ParallelRun1')
+data.setCell(3, 3, 66659);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'parallel.ParallelRun1')
+data.setCell(4, 3, 61975);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'parallel.ParallelRun1')
+data.setCell(5, 3, 61541);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'parallel.ParallelRun1')
+data.setCell(6, 3, 61534);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'parallel.ParallelRun1')
+data.setCell(7, 3, 56146);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'parallel.ParallelRun1')
+data.setCell(8, 3, 55941);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">parallel.ParallelRun1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@69796bd0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that user gets below mentioned labels/Fields on "Forgot Password' webpage Labels,"Forgot Pas...)</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that "If there is an account associated with <entered email address> you will receive an ema...)</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that Sign-In page title is "Customer Login"", "SignIn")</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that "Please enter a valid email address (Ex: johndoe@domain.com)." error message is display...)</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that Sign-In page form contains below elements:-", "SignIn")</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that title of Forgot Password page is "Forgot Your Password?"", "Forgot Password")</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that "This is a required field." error message is displayed under all Mandatory fields provd...)</span>
+                <span class="method-start">1633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that user logs in successfully using valid credentials", "SignIn")</span>
+                <span class="method-start">1634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that user is not able to login using invalid credentials", "SignIn")</span>
+                <span class="method-start">1634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">107800 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
